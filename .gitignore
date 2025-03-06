@@ -1,23 +1,29 @@
-VirtualDB_Data
-.git
-.svn
-_srcDynamic
+# Ignore binary and compiled files
 _bin
 bin
-_config
+out
 ludb.jar
-ludb.json
 ludb.zip
 ludbXMLs.zip
 *.xml.tmp
-out
-.idea
+
+# Ignore IDE/workspace-specific files
+.idea/
+.studio/
+.studioWeb/
 Implementation/SharedObjects/Java/*.iml
 Implementation/LogicalUnits/*/Java/*.iml
-.studio
-.studioWeb
-FabricHome
-LocalDeploy
-LocalDeployWeb
+
+# Ignore version control folders (only needed if migrating from SVN)
+.svn
+
+# Ignore temporary and auto-generated files
+VirtualDB_Data/
+_srcDynamic/
+FabricHome/
+LocalDeploy/
+LocalDeployWeb/
+
+# Ignore extension-related build artifacts
 extensions/*/artifacts
 extensions/*/templates

@@ -30,6 +30,7 @@
     "java.project.outputPath": ".studioWeb/java/bin",
     "java.project.sourcePaths": [
 		"Implementation/SharedObjects/Java/src",	
+		"Implementation/LogicalUnits/Test/Java/src",	
 		"Implementation/LogicalUnits/k2_ref/Java/src",	
 		"Implementation/LogicalUnits/k2_ws/Java/src"	
 	],
